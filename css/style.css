@@ -31,6 +31,10 @@
     border-left: 1px solid black;
 }
 
+header nav {
+    height: 50px;
+}
+
 
 
 
@@ -44,8 +48,8 @@
 }
 
 .debug header{
-    height: 300px;
     background-color: green;
+    border: 1px solid black;
 }
 
 .debug .section-top{
@@ -59,4 +63,8 @@
 
 .debug .content-social{
     background-color: skyblue;
+}
+
+.debug nav{
+    background-color: blue;
 }
