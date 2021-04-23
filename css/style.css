@@ -36,7 +36,16 @@ header nav {
 }
 
 /* main */
+.content-arguments .cl-sx,
+.content-arguments .cl-center,
+.content-arguments .cl-dx{
+    width: 30%;
+    float: left;
+}
 
+.content-arguments .cl-center{
+    margin: 0 5% 80px;
+}
 
 
 
@@ -85,6 +94,13 @@ header nav {
 }
 
 .debug .content-arguments{
-    height: 620px;
     background-color: maroon;
+    border: 3px solid black;
+}
+
+.debug .cl-sx,
+.debug .cl-center,
+.debug .cl-dx{
+    height: 300px;
+    background-color: orange;
 }
