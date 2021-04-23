@@ -35,6 +35,8 @@ header nav {
     height: 50px;
 }
 
+/* main */
+
 
 
 
@@ -43,7 +45,6 @@ header nav {
 
 /* debug */
 .debug .container{
-    height: 1000px;
     background-color: red;
 }
 
@@ -67,4 +68,23 @@ header nav {
 
 .debug nav{
     background-color: blue;
+}
+
+.debug .jumbotron{
+    height: 400px;
+    background-color:darkgray;
+}
+
+.debug .content{
+    background-color: darksalmon;
+}
+
+.debug .heading{
+    height: 150px;
+    background-color: darkslategrey;
+}
+
+.debug .content-arguments{
+    height: 620px;
+    background-color: maroon;
 }
