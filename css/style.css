@@ -55,6 +55,7 @@ ul{
 header nav {
     height: 50px;
     line-height: 50px;
+    margin-top: 10px;
 }
 
 .menu-top li{
@@ -68,7 +69,38 @@ header nav {
     text-decoration: none;
 }
 
+
 /* main */
+
+/* jumbotron */
+.jumbotron{
+    height: 400px;
+    background: black url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.jumbotron .transparency{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    height: 100%;
+    padding: 220px 0 0 50px;
+}
+
+.jumbotron .text-content{
+    width: 55%;
+    color: white;
+    font-size: 20px;
+}
+
+.jumbotron .text-content h2{
+    margin-bottom: 10px;
+}
+
+
+
 .content-arguments .cl-sx,
 .content-arguments .cl-center,
 .content-arguments .cl-dx{
@@ -113,7 +145,6 @@ header nav {
 }
 
 .debug .jumbotron{
-    height: 400px;
     background-color:darkgray;
 }
 
@@ -136,4 +167,8 @@ header nav {
 .debug .cl-dx{
     height: 300px;
     background-color: orange;
+}
+
+.debug .jumbotron .text-content{
+    background-color: chocolate;
 }
