@@ -1,0 +1,261 @@
+/* common */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* header */
+.cont-logo{
+    width: 25%;
+    height: 100px;
+    float: left;
+}
+
+#logo{
+    height: 100%;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.text-logo{
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 900;
+    vertical-align: middle;
+}
+
+.section-top .content-social{
+    width: 75%;
+    height: 100px;
+    float: left;
+    border-left: 1px solid #e5e5e5;
+}
+
+header nav {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+}
+
+.menu-top li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu-top a{
+    color: #838383;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+/* main */
+
+/* jumbotron */
+.jumbotron{
+    height: 400px;
+    background: black url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+
+.jumbotron .transparency{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    height: 100%;
+    padding: 220px 0 0 50px;
+}
+
+.jumbotron .text-content{
+    width: 55%;
+    color: white;
+    font-size: 20px;
+}
+
+.jumbotron .text-content h2{
+    margin-bottom: 10px;
+}
+
+/* heading */
+.content .heading{
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.content .heading h2{
+    font-size: 40px;
+}
+
+.content .heading h4{
+    font-size: 16px;
+    color: #929292;
+    font-weight: 300;
+}
+
+/* content arguments */
+.content-arguments{
+    margin-bottom: 40px;
+}
+
+.content-arguments .cl-sx,
+.content-arguments .cl-center,
+.content-arguments .cl-dx{
+    width: 30%;
+    float: left;
+}
+
+.content-arguments .cl-center{
+    margin: 0 5% 0;
+}
+
+.content-arguments .card-img{
+    height: 232px;
+}
+
+.content-arguments .card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    filter: brightness(90%);
+}
+
+.content-arguments .text-card{
+    margin-top: 25px;
+    padding: 0 20px;
+}
+
+.content-arguments .text-card h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.content-arguments .text-card a{
+    text-decoration: none;
+    color: black;
+}
+
+.content-arguments .text-card p{
+    color: #909090;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.card-meta .ico-user{
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.card-meta a{
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+.card-meta .date{
+    color: #afafaf;
+    vertical-align: middle;
+    margin: 0 5px;
+}
+
+.card-meta .time{
+    border-left: 1px solid rgba(211, 211, 211, 0.63);
+    padding-left: 5px;
+    vertical-align: middle;
+}
+
+
+/* fine main */
+
+
+
+/* debug */
+/*
+.debug .container{
+    background-color: red;
+}
+
+.debug header{
+    background-color: green;
+    border: 1px solid black;
+}
+
+.debug .section-top{
+    border: 3px solid black;
+    background-color: yellow;
+}
+
+.debug .cont-logo{
+    background-color: teal;
+}
+
+.debug .content-social{
+    background-color: skyblue;
+}
+
+.debug nav{
+    background-color: blue;
+}
+
+.debug .jumbotron{
+    background-color:darkgray;
+}
+
+.debug .content{
+    background-color: darksalmon;
+}
+
+.debug .heading{
+    background-color: darkslategrey;
+}
+
+.debug .content-arguments{
+    background-color: maroon;
+    border: 3px solid black;
+}
+
+.debug .cl-sx,
+.debug .cl-center,
+.debug .cl-dx{
+    height: 300px; 
+    background-color: orange;
+}
+
+.debug .jumbotron .text-content{
+    background-color: chocolate;
+}
+
+.debug .content-arguments .card-img{
+    height: 232px;
+    background-color:steelblue;
+}
+
+.debug .content-arguments .text-card{
+    height: 300px;
+    background-color: pink;
+}
+
+*/
