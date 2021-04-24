@@ -1,0 +1,90 @@
+/* formattazione */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header */
+header{
+    height: 100px;
+    background-color: violet;
+}
+
+header nav{
+    height: 30px;
+}
+
+header .header-top{
+    height: 70px;
+}
+
+
+
+/* main */
+
+/* section jumbotron */
+section.jumbotron{
+    height: 400px; /* da togliere */
+    background-color: yellow; /* da togliere */
+    margin: 20px 0;
+}
+
+/* section container */
+section.content-main{
+    background-color: blue; /* da togliere */
+}
+
+.heading{
+    height: 100px; /* da togliere */
+    background-color: cyan; /* da togliere */
+    margin-bottom: 20px;
+}
+
+aside.content{
+    height: 300px; /* da togliere */
+    width: 25%; /* da togliere */
+    background-color: cyan; /* da togliere */
+    margin-bottom: 20px;
+}
+
+section.content-central{
+    height: 300px; /* da togliere */
+    margin: 0 10px 20px;
+    background-color: cyan; /* da togliere */
+    width: calc(50% - 20px);
+}
+
+/* piè di pagina */
+footer{
+    height: 100px;
+    margin-top: 20px;
+    background-color: fuchsia;
+}
+
+
+
+
+/* de bug */
+.debug header nav{
+    background: red;
+}
+
+.debug .header-top{
+    background: springgreen;
+}
