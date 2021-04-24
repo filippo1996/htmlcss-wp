@@ -26,23 +26,72 @@ header{
     background-color: violet;
 }
 
-header nav{
-    height: 30px;
-}
-
 header .header-top{
     height: 70px;
 }
 
+header nav{
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+#logo {
+    height: 100%;
+    padding-right: 40px;
+    border-right: 1px solid black;
+}
+
+header nav li{
+    display: inline-block;
+    margin-right: 5px;
+}
+
+header nav li a{
+    text-decoration: none;
+    color: #838383;
+    text-transform: uppercase;
+}
 
 
 /* main */
 
+
 /* section jumbotron */
 section.jumbotron{
-    height: 400px; /* da togliere */
-    background-color: yellow; /* da togliere */
-    margin: 20px 0;
+    height: 400px;
+    margin: 40px 0;
+    border-radius: 10px;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .color-background{
+    height: 100%;
+    padding: 200px 0 0 50px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.jumbotron .text-jumb{
+    width: 50%;
+}
+
+.jumbotron .text-jumb a{
+   color: white;
+   text-decoration: none;
+}
+
+.jumbotron .text-jumb h2{
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.jumbotron .text-jumb p{
+    line-height: 1.6;
 }
 
 /* section container */
@@ -87,4 +136,8 @@ footer{
 
 .debug .header-top{
     background: springgreen;
+}
+
+.debug .jumbotron .text-jumb{
+    background-color: yellow;
 }
