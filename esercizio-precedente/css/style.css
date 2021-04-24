@@ -100,20 +100,48 @@ section.content-main{
 }
 
 .heading{
-    height: 100px; /* da togliere */
     background-color: cyan; /* da togliere */
     margin-bottom: 20px;
+    padding: 20px;
 }
+
+.heading h2{
+    font-size: 36px;
+    font-weight: 900;
+}
+
 
 aside.content{
-    height: 300px; /* da togliere */
-    width: 25%; /* da togliere */
+    width: 25%;
     background-color: cyan; /* da togliere */
     margin-bottom: 20px;
 }
 
+.content .card-img,
+.content-central .card-img{
+    height: 250px;
+}
+
+.content .card-img img,
+.content-central .card-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: brightness(90%);
+    border-radius: 5px;
+}
+
+.content .card-text,
+.content-central .card-text{
+    margin-top: 20px;
+}
+
+
+
+
+
+
 section.content-central{
-    height: 300px; /* da togliere */
     margin: 0 10px 20px;
     background-color: cyan; /* da togliere */
     width: calc(50% - 20px);
@@ -140,4 +168,20 @@ footer{
 
 .debug .jumbotron .text-jumb{
     background-color: yellow;
+}
+
+.debug .content .card-img,
+.debug .content-central .card-img{
+    background-color: salmon;
+}
+
+
+.debug .content .card-text{
+    height: 100px;
+    background-color: green;
+}
+
+.debug .content-central .card-text{
+    height: 200px;
+    background-color: green;
 }
