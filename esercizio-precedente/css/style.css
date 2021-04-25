@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     width: 80%;
     margin: 20px auto;
@@ -23,7 +27,6 @@
 /* header */
 header{
     height: 100px;
-    background-color: violet;
 }
 
 header .header-top{
@@ -95,12 +98,8 @@ section.jumbotron{
 }
 
 /* section container */
-section.content-main{
-    background-color: blue; /* da togliere */
-}
 
 .heading{
-    background-color: cyan; /* da togliere */
     margin-bottom: 20px;
     padding: 20px;
 }
@@ -110,11 +109,20 @@ section.content-main{
     font-weight: 900;
 }
 
+.heading h4{
+    font-weight: 400;
+    color: gray;
+}
+
 
 aside.content{
     width: 25%;
-    background-color: cyan; /* da togliere */
     margin-bottom: 20px;
+}
+
+section.content-central{
+    margin: 0 10px 20px;
+    width: calc(50% - 20px);
 }
 
 .content .card-img,
@@ -128,7 +136,7 @@ aside.content{
     width: 100%;
     object-fit: cover;
     filter: brightness(90%);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .content .card-text,
@@ -137,27 +145,36 @@ aside.content{
 }
 
 
+.content .card-text h3{
+    margin-bottom: 5px;
+}
 
+.content-central .card-text h3{
+    margin-bottom: 5px;
+}
 
-
-
-section.content-central{
-    margin: 0 10px 20px;
-    background-color: cyan; /* da togliere */
-    width: calc(50% - 20px);
+.content-central .card-text p,
+.content .card-text p{
+    color: grey;
 }
 
 /* piè di pagina */
 footer{
     height: 100px;
     margin-top: 20px;
-    background-color: fuchsia;
+    line-height: 100px;
+    text-align: center;
+}
+
+footer .copy > span{
+    color: red;
+    font-size: 20px;
 }
 
 
 
 
-/* de bug */
+/* debug 
 .debug header nav{
     background: red;
 }
@@ -177,11 +194,11 @@ footer{
 
 
 .debug .content .card-text{
-    height: 100px;
     background-color: green;
 }
 
 .debug .content-central .card-text{
-    height: 200px;
     background-color: green;
 }
+
+*/
